@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
-
+import 'login.dart';
+import 'home.dart';
 /*
 void main(){
   runApp(const MyApp());
@@ -38,12 +39,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-       title: Text(widget.title),
-      ),
-      body: const Center(
-             ),
-         );
+    return HomePage();  
   }
 }
